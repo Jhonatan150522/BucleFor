@@ -7,15 +7,14 @@
 totalPago = 0;pagoMen = 10
 #Se realiza el ciclo for
 for i in range(1,21,1):
-
     totalPago = totalPago+pagoMen
     print("El pago del mes", i, "es de: ", pagoMen)
     pagoMen=pagoMen*2
-    
+# Se imprime el resultado
 print("El total de lo que ha pagado después de ", i, "meses es de: ", totalPago)
 
 
-
+# Esta es una prueba 
 
 
 

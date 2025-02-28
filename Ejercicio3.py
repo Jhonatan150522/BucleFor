@@ -6,19 +6,20 @@
 # El programa deberá mostrar en su salida cuántos estudiantes fueron encuestados, así como el
 # resumen de la encuesta como el promedio y cuál es la nota más alta dada y la nota más baja
 
-#
+#Se hace la lista de calificaciones
 calificaciones = []
-#
+#Se realiza el ciclo for
 for i in range (0, 10):
     nota= int(input("Ingrese la calificación del estudiante: "))
     if nota <= 0 and nota >= 10:
         break
     calificaciones.append(nota)
 
-
+#Se realiza el cálculo de la nota más alta, la nota más baja y el promedio
 NotaA=max(calificaciones)
 NotaM=min(calificaciones)
 Promedio=sum(calificaciones)/len(calificaciones)
+#Se imprime el resultado
 print("La nota más alta dada es: ", NotaA)
 print("La nota más baja dada es: ", NotaM)
 print("El promedio de las calificaciones es: ", Promedio)
