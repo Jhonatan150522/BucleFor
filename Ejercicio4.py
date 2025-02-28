@@ -4,12 +4,11 @@
 #mediante pseudocódigo y el utilizando el ciclo apropiado.
 
 # Inicializar las variables
-totalPago = 0
-pagoMen = 10
+totalPago = 0;pagoMen = 10
 #Se realiza el ciclo for
 for i in range(1,21,1):
 
-    totalPago += pagoMen
+    totalPago = totalPago+pagoMen
     print("El pago del mes", i, "es de: ", pagoMen)
     pagoMen=pagoMen*2
     
